@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("background-image.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      width: 300px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label, input {
+      display: block;
+      width: 100%;
+    }
+    .back{
+        background-color:violet;
+        border: 1px solid #ccc;
+    }
+    .back:hover{
+        border: 2px solid #564242;
+        height: auto;
+    }
+
+    input[type=text] {
+  width: 100%;
+  padding:6.5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body style="background-image: url(https://e0.pxfuel.com/wallpapers/5/555/desktop-wallpaper-small-memory-8k-8k-background-and-8k-graphics.jpg);">
+
+    <div class="back">
+        
+  <div class="container">
+    <h2>Login</h2>
+    <form action="redirect-page.html" method="post">
+      <div class="form-group">
+        <label for="username">Playername:</label>
+        <input type="text" id="username" name="username" placeholder="Enter playername" required>
+      </div>
+      <input type="submit" value="Login">
+    </form>
+</div>
+  </div>
+</body>
+</html>
